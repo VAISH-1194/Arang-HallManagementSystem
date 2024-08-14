@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import 'react-date-range/dist/styles.css'; // main style file
+@import "~react-image-gallery/styles/scss/image-gallery.scss";
+@import 'react-date-range/dist/theme/default.css'; // theme css file
+
+@import './styles/constants';
+@import './styles/utility';
+@import './components/global-navbar/global-navbar.scss';
+@import './components/ux/input/input.scss';
+@import './components/ux/data-range-picker/date-range-picker.scss';

@@ -1,0 +1,55 @@
+.default-room-list, .room-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.room-list-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.room-list-item-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+.room-details {
+    flex-grow: 1;
+}
+
+.room-details h3 {
+    margin: 0;
+    font-size: 20px;
+}
+
+.room-details p {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+.book-now-div {
+    display: flex;
+    align-items: center;
+}
+
+.edit-room-button, .book-now-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.edit-room-button:hover, .book-now-button:hover {
+    background-color: #0056b3;
+}
